@@ -1,0 +1,25 @@
+Mikołaj Ogarek - wyniki 08 Programowanie liniowe - problemy dualne
+
+Zadanie 1
+
+Postać dualna: 
+y1+4y2 >=2
+3y1+6y2 >=5 
+2y1+5y2>=3
+3y1+7y2 >=4
+y1+y2 >=1
+
+g(y) = 6y1 + 15y2 -> MIN
+
+
+Rozwiązanie: 
+     fun: 10.5
+ message: 'Optimization terminated successfully.'
+     nit: 6
+   slack: array([0.        , 0.        , 0.5       , 1.16666667, 0.5       ])
+  status: 0
+ success: True
+       x: array([1.33333333, 0.16666667])
+
+y1 = 4/3
+y2 = 1/6

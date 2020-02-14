@@ -1,0 +1,58 @@
+Mikołaj Ogarek - wyniki 08 Programowanie liniowe - problemy dualne
+
+Zadanie 4
+
+-x1-x2-x3-2x4-2x5 <= -12000
+-x1-2x2-x4-x6-2x7-3x8 <=-24000
+-2x1-3x3-x5-4x6-2x7-x8-6x9<=-27000
+f(x) = x1+3x2+4x3+3x5+2x6+4x7+x8 -> MIN
+-f(x) = -x1-3x2-4x3-3x5-2x6-4x7-x8 -> MAX
+
+[1, 1, 2], [1, 2, 0], [1, 0, 3], [2, 1, 0], [2, 0, 1], [0, 1, 4], [0, 2, 2], [0, 3, 1], [0, 0, 6]
+
+Postać dualna: 
+-y1-y2-2y3>=-1
+-y1-2y2>=-3
+-y1-3y3>=4
+-2y1-y2>=-0
+-2y1-y3>=-3
+-y2-4y3>=-2
+-2y2-2y3>=-4
+-3y2-y3>=1
+-6y3>=-0
+
+g(y) =-12000y1-24000y2-27000 -> MIN
+
+
+Rozwiązanie: 
+     fun: -0.0
+ message: 'Optimization terminated successfully.'
+     nit: 2
+   slack: array([1., 3., 4., 0., 3., 2., 4., 1., 0.])
+  status: 0
+ success: True
+       x: array([0., 0., 0.])
+
+y1 = 0
+y2 = 0
+y3 = 0
+
+x1=0
+x2=0 
+x3=0 
+x5=0
+x6=0 
+x7=0
+x8=0
+
+-2x4 = -12000
+-x4 = -24000
+-6x9= -27000
+=> 
+x9 = 4500
+x4 = 6000 lub x4 = 12000
+
+Współczynniki ai w funkcji f(x) przy x4 i x9 = 0 
+Zatem f(x) = 0 
+
+

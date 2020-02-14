@@ -1,0 +1,29 @@
+Mikołaj Ogarek - wyniki Zadanie Liczenie rankingu metodą geometryczną
+
+
+Macierz A:
+Koczkodaj: 0.21875
+Value to compare: 0.26754446796632414
+Can 100% trust HRE
+Rozwiązanie: 
+[5.35311934 8.36693726 2.7275953  2.31136976 3.         1.        ]
+
+
+Macierz B:
+Koczkodaj: 0.9464285714285714
+Value to compare: 0.45278640450004204
+Cannot 100% trust HRE
+Rozwiązanie: 
+[1.00002314 0.92779574 0.76996298 2.         0.5        1.        ]
+
+
+Macierz C: 
+Koczkodaj: 0.14500000000000013
+Value to compare: 0.26754446796632414
+Can 100% trust HRE
+Rozwiązanie: 
+[ 8.18670835  2.         10.11347353  5.          2.04604087  3.00786814]
+
+
+
+

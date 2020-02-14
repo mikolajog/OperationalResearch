@@ -1,0 +1,72 @@
+Mikołaj Ogarek - Zadanie 3 07 Programowanie liniowe
+WYNKI:
+
+Gracz A:
+Postać kanoniczna: 
+-2x1-5x3-2x4<=-1
+-4x1-2x2-2x31x4<=-1
+x1-2x2-2x3-6x4<=-1
+-2x1-5x2+2x3-2x4<=-1
+
+funkcja celu:x1+x2+x3-> MIN
+
+
+Wynik funkcji: 
+     fun: 0.5
+ message: 'Optimization terminated successfully.'
+     nit: 4
+   slack: array([1.        , 0.71428571, 0.78571429, 1.        , 0.        ,
+       0.        , 0.        , 0.        ])
+  status: 0
+ success: True
+       x: array([0.        , 0.28571429, 0.21428571, 0.        ])
+
+
+1/V=0.5 => V=2
+pi = 2*xi
+
+Zatem: 
+p1=0.0
+p2=0.57142857
+p3=0.42857143
+p4=0.0
+
+Wartość gry(V): 0 (2 - 2 bo wcześniej dodawaliśmy 2) 
+
+
+
+Gracz B:
+Postać kanoniczna: 
+2x1+4x2-x3+2x4<=1
+2x2+2x3+5x4<=1
+5x1+2x2+2x3-2x4<=1
+2x1-x2+6x3+2x4<=1
+
+
+funkcja celu:-x1-x2-x3-> MIN
+
+
+Wynik funkcji: 
+     fun: -0.5
+ message: 'Optimization terminated successfully.'
+     nit: 4
+   slack: array([0. , 0. , 0. , 0.1, 1. , 0.7, 0.8, 1. ])
+  status: 0
+ success: True
+       x: array([0. , 0.3, 0.2, 0. ])
+
+
+fun =0.5 (wcześniej zmienialiśmy funkcję na -f(x) )
+
+1/V=0.5 => V=2
+pi = 2*xi
+
+Zatem: 
+p1=0.0
+p2=0.6
+p3=0.4
+p4=0.0
+
+Wartość gry(V): 0 (2 - 2 bo wcześniej dodawaliśmy 2) 
+
+

@@ -1,0 +1,77 @@
+Mikołaj Ogarek - wyniki Zadanie 2
+
+
+Ostateczny ranking: 
+1. Hotel KUR
+2. Hotel TUR
+3. Hotel BÓR
+4. Hotel MUR
+
+
+Zauważono, iż można zaproponować różne macierze porównań kategorii.
+
+I sposób: 
+
+Porównać według zaproponowanej przez Saatiego skali: 
+Wartość Ocena elementu A względem B
+9 	A jest ekstremalnie preferowane
+7 	A jest bardzo silnie preferowane
+5 	A jest silnie preferowane
+3 	A jest słabo preferowane
+1 	A jest równoważne z B 
+
+
+Dla danych: 
+
+c1=[[1,1/3,3,5],[3,1,5,7],[1/3,1/5,1,3],[1/5,1/7,1/3,1]]
+c2=[[1,1,5,3],[1,1,5,3],[1/5,1/5,1,1/3],[1/3,1/3,3,1]]
+c3=[[1,3,1/3,1/5],[1/3,1,1/5,1/7],[3,5,1,1/3],[5,7,3,1]]
+c4=[[1,1/3,1,1/3],[3,1,1/3,1],[1,3,1,1/3],[3,1,3,1]]
+ 
+oraz podanej macierzy porównania kryteriów osiągnięto następujące rezultaty
+
+
+Macierz wektorów własnych kategorii:
+[[0.26220121+0.j 0.38986164-0.j 0.11750425+0.j 0.12699167-0.j]
+ [0.56500905+0.j 0.38986164-0.j 0.05528549+0.j 0.23210666-0.j]
+ [0.11750425+0.j 0.06792478-0.j 0.26220121+0.j 0.25992664-0.j]
+ [0.05528549+0.j 0.15235193-0.j 0.56500905+0.j 0.38097502-0.j]]
+
+
+Wektor własny macierzy parametrów: 
+[(0.5407509231697795+0j), (0.21154267540244326+0j), (0.13137977865036843+0j), (0.11632662277740881+0j)]
+
+Wektor ostateczny - ranking: 
+[0.25446811+0.j 0.42226512+0.j 0.14259385+0.j 0.18067292+0.j]
+
+
+
+II sposób: 
+
+Porównanie według stosunku wartości Wa/Wb:
+
+Dla danych: 
+
+c1=[[1,150/210,230/250,250/210],[210/150,1,230/150,250/150],[210/230,150/230,1,250/230],[210/250,150/250,230/250,1]]
+c2=[[1,1,30/20,25/20],[1,1,30/20,25/20],[20/30,20/30,1,25/30],[20/25,20/25,30/25,1]]
+c3=[[1,30/20,12/20,8/20],[20/30,1,12/30,8/30],[20/12,30/12,1,8/12],[20/8,30/8,12/8,1]]
+c4=[[1,1,0,1],[0,1,0,1],[0,1,0,1],[0,1,0,1]]
+ 
+oraz podanej macierzy porównania kryteriów osiągnięto następujące rezultaty
+
+
+Macierz wektorów własnych kategorii:
+[[0.23332772+0.j 0.28846154+0.j 0.17142857-0.j 0.4       +0.j]
+ [0.34041433+0.j 0.28846154+0.j 0.11428571-0.j 0.2       +0.j]
+ [0.22200935+0.j 0.19230769+0.j 0.28571429-0.j 0.2       +0.j]
+ [0.2042486 +0.j 0.23076923+0.j 0.42857143-0.j 0.2       +0.j]]
+
+
+Wektor własny macierzy parametrów: 
+[(0.5407509231697795+0j), (0.21154267540244326+0j), (0.13137977865036843+0j), (0.11632662277740881+0j)]
+
+Wektor ostateczny - ranking: 
+[0.256247  +0.j 0.28338145+0.j 0.22153545+0.j 0.2388361 +0.j]
+
+
+

@@ -1,0 +1,95 @@
+Mikołaj Ogarek - wyniki Indeks Kandalla
+
+
+1. Macierze porównań zamienione na uogólnione turniejowe: 
+
+Matrix A changed to generic tournament: 
+[[ 0 -1  1  1  1  1]
+ [ 1  0  1  1  1  1]
+ [-1 -1  0  1 -1  1]
+ [-1 -1 -1  0 -1  1]
+ [-1 -1  1  1  0  1]
+ [-1 -1 -1 -1 -1  0]]
+Matrix B changed to generic tournament: 
+[[ 0 -1  1  1 -1  0  1]
+ [ 1  0 -1  0  0  1 -1]
+ [-1  1  0 -1  1 -1  0]
+ [-1  0  1  0  1  1  1]
+ [ 1  0 -1 -1  0 -1 -1]
+ [ 0 -1  1 -1  1  0 -1]
+ [-1  1  0 -1  1  1  0]]
+Matrix C changed to generic tournament: 
+[[ 0 -1 -1  0  1  1  0 -1]
+ [ 1  0  0  1  0 -1 -1  0]
+ [ 1  0  0  1 -1  1  0 -1]
+ [ 0 -1 -1  0  1  0 -1  0]
+ [-1  0  1 -1  0 -1 -1  0]
+ [-1  1 -1  0  1  0  1  1]
+ [ 0  1  0  1  1 -1  0 -1]
+ [ 1  0  1  0  0 -1  1  0]]
+
+
+2. Sprawdzenie, które z macierzy D,E,F są uogólnione turniejowe: 
+
+Uogólnione turniejowe: E,F. 
+
+This is matrix D
+[[ 0  1  1 -1 -1  1 -1]
+ [-1  0  0  1  1 -1  0]
+ [-1  0  0  0  1  1 -1]
+ [ 1 -1  0  0  1  0  1]
+ [ 1  0 -1 -1  0  1 -1]
+ [-1  1 -1  1 -1  0  0]
+ [ 1  0  1 -1  1  0  0]]
+No, this matrix is not the generic tournament!
+
+This is matrix E
+[[ 0  1  0  0 -1]
+ [-1  0  0  0  1]
+ [ 0  0  0  1  0]
+ [ 0  0 -1  0  0]
+ [ 1 -1  0  0  0]]
+Yes, this matrix is the generic tournament!
+
+This is matrix F
+[[ 0 -1  1 -1  1 -1  1 -1  1]
+ [ 1  0  1  1  1 -1 -1 -1 -1]
+ [-1 -1  0 -1  1 -1  1  1  1]
+ [ 1 -1  1  0 -1  1 -1  1 -1]
+ [-1 -1 -1  1  0 -1  1  1  1]
+ [ 1  1  1 -1  1  0 -1 -1 -1]
+ [-1  1 -1  1 -1  1  0  1 -1]
+ [ 1  1 -1 -1 -1  1 -1  0  1]
+ [-1  1 -1  1 -1  1  1 -1  0]]
+Yes, this matrix is the generic tournament!
+
+3. Macierze uogólniona turniejowa A oraz F nie dopuszczają remisów. 
+
+Matrix generic A: 
+No, draw is impossible!
+Matrix generic B: 
+Yes, draw is possible!
+Matrix generic C: 
+Yes, draw is possible!
+Matrix E: 
+Yes, draw is possible!
+Matrix F: 
+No, draw is impossible!
+
+
+4. Uogólniony Indeks Kendalla(dla D nie obliczamy, gdyż nie jest uogólnioną macierzą turniejową): 
+
+Generic Kandall index for matrix generic_A: 1.0
+Generic Kandall index for matrix generic_B: 0.5454545454545454
+Generic Kandall index for matrix generic_C: 0.42307692307692313
+Generic Kandall index for matrix E: 0.0
+Generic Kandall index for matrix F: 0.6103896103896104
+
+5. Klasyczny indeks Kandalla dla macierzy A i F: 
+
+Classic Kandall index for matrix generic_A: 1.0
+Classic Kandall index for matrix F:  0.0
+
+
+
+

@@ -1,0 +1,9 @@
+Mikołaj Ogarek - Zadanie 2 Elementy teorii gier
+WYNKI:
+
+Program podaje oczekiwane wartości dla przykładów: 
+
+Przykład dla 3 stosów, jedna, dwie i sześć monet: 1 punkt dla pierwszego gracza => 1
+Przykład dla 2 stosów, po 2 monety: remis. => 0
+
+

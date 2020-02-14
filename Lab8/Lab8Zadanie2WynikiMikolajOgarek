@@ -1,0 +1,40 @@
+Mikołaj Ogarek - wyniki 08 Programowanie liniowe - problemy dualne
+
+Zadanie 2
+
+5x1+4x2+4x3+2x4 <= 20 000
+4x1+2x2+5x4 <=28000
+f(x) = 10x1 + 14x2 + 8x3 + 11x4 -> MAX
+
+Postać dualna: 
+5y1+4y2 >=10
+4y1+2y2 >=14
+4y1 >=8
+2y1+5y2 >=11
+g(y) =20000y1+28000y2 -> MIN
+
+
+Rozwiązanie: 
+     fun: 88000.0
+ message: 'Optimization terminated successfully.'
+     nit: 4
+   slack: array([9., 0., 4., 0.])
+  status: 0
+ success: True
+       x: array([3., 1.])
+[2750. 4500.]
+
+y1 = 3
+y2 = 1
+
+x1=0
+x3=0 
+
+4x2 + 2x4 = 20000
+2x2 + 5x4 = 28000
+=> 
+x2 = 2750
+x4 = 4500
+
+f(x) = 88000
+

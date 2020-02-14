@@ -1,0 +1,74 @@
+Mikołaj Ogarek - wyniki Zadanie 1
+
+
+Ostateczny ranking: 
+1. Samochód2
+2. Samochód1
+3. Samochód3
+
+Zaproponowany model:
+a) porównanie ceny: zużycie paliwa jest ważniejsze niż cena samochodu
+b) porównanie pojemności: rozmiar bagażnika jest ważniejszy niż ilośc pasażerów
+
+Krok 1: Znalezienie rankingu dla ceny: 
+
+ccc=[[1,1/3,3],[3,1,5],[1/3,1/5,1]]
+ccz=[[1,3,1/3],[1/3,1,1/5],[3,5,1]]
+
+cparc=[[1,1/5],[5,1]]
+
+
+Macierz wektorów własnych kategorii:
+[[0.25828499+0.j 0.25828499+0.j]
+ [0.63698557+0.j 0.10472943+0.j]
+ [0.10472943+0.j 0.63698557+0.j]]
+
+Wektor własny macierzy parametrów: 
+[0.16666666666666669, 0.8333333333333334]
+
+Wektor ostateczny - ranking: 
+[0.25828499+0.j 0.19343879+0.j 0.54827622+0.j]
+
+Krok 2: Znalezienie rankingu dla pojemności: 
+
+
+ccc=[[1,5,3],[1/5,1,1/3],[1/3,3,1]]
+ccz=[[1,1,3],[1,1,3],[1/3,1/3,1]]
+
+cparc=[[1,3],[1/3,1]]
+
+
+Macierz wektorów własnych kategorii:
+[[0.63698557+0.j 0.42857143+0.j]
+ [0.10472943+0.j 0.42857143+0.j]
+ [0.25828499+0.j 0.14285714+0.j]]
+
+Wektor własny macierzy parametrów: 
+[0.75, 0.25]
+
+Wektor ostateczny - ranking: 
+[0.58488204+0.j 0.18568993+0.j 0.22942803+0.j]
+
+
+Krok 3: Z wykorzystaniem rankingów dla ceny i pojemności, szukamy ogólnego rankingu z wykorzystaniem metody porównywania wartości Wa/Wb: 
+
+
+c1=[[1,0.19/0.26,0.55/0.26],[0.26/0.19,1,0.55/0.19],[0.55/0.26,0.19/0.55,1]]
+c2=[[1,3.5/4,4.5/4],[4/3.5,1,4.5/3.5],[4/4.5,3.5/4.5,1]]
+c3=[[1,0.19/0.58,0.23/0.58],[0.58/0.19,1,0.23/0.19],[0.58/0.23,0.10/0.23,1]]
+
+
+cparams=[[1,1/7,3],[7,1,5],[1/3,1/5,1]]
+
+Macierz wektorów własnych kategorii:
+[[0.30645367 0.32984293 0.16253032]
+ [0.41935765 0.37696335 0.4961452 ]
+ [0.27418869 0.29319372 0.34132448]]
+
+Wektor własny macierzy parametrów: 
+[(0.17017232408137037+0j), (0.7383073751074779+0j), (0.09152030081115177+0j)]
+
+Wektor ostateczny - ranking: 
+[0.31055023+0.j 0.39508525+0.j 0.29436453+0.j]
+
+

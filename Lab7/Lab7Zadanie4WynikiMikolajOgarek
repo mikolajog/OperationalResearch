@@ -1,0 +1,69 @@
+Mikołaj Ogarek - Zadanie 4 07 Programowanie liniowe
+WYNKI:
+
+Gracz A:
+Postać kanoniczna: 
+x1-4x2<=-1
+-9x2<=-1
+3x1-x2<=-1
+
+
+funkcja celu:x1+x2-> MIN
+
+
+Wynik funkcji: 
+     fun: 0.5384615384615384
+ message: 'Optimization terminated successfully.'
+     nit: 3
+   slack: array([0.76923077, 0.69230769, 0.        , 0.        , 0.        ])
+  status: 0
+ success: True
+       x: array([0.23076923, 0.30769231])
+
+1/V=0.5384615384615384 => V=1.8571428571428572
+pi = 2*xi
+
+Zatem: 
+p1=0.42857143
+p2=0.57142857
+
+
+Wartość gry(V): 0.8571428571428572 (1.8571428571428572 - 1 bo wcześniej dodawaliśmy 1) 
+
+
+
+
+Gracz B:
+Postać kanoniczna: 
+-x1+9x2+3x3<=1
+4x1+x3<=1
+x1<=1
+
+
+funkcja celu:-x1-x2-x3-> MIN
+
+
+Wynik funkcji: 
+     fun: -0.5384615384615385
+ message: 'Optimization terminated successfully.'
+     nit: 3
+   slack: array([0.        , 0.        , 0.84615385, 1.        , 0.61538462])
+  status: 0
+ success: True
+       x: array([0.15384615, 0.        , 0.38461538])
+
+
+fun =0.5384615384615384 (wcześniej zmienialiśmy funkcję na -f(x) )
+
+1/V=0.5384615384615384 => V=1.8571428571428572
+pi = 2*xi
+
+Zatem: 
+p1=0.28571429
+p2=0.0
+p3=0.71428571
+
+
+Wartość gry(V): 0.8571428571428572 (1.8571428571428572 - 1 bo wcześniej dodawaliśmy 1) 
+
+

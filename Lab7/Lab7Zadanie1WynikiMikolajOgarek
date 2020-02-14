@@ -1,0 +1,40 @@
+Mikołaj Ogarek - Zadanie 1 07 Programowanie liniowe
+WYNKI:
+
+Postać kanoniczna: 
+x1+x2+x3 <=30
+-x1-x2-x3 <=-30
+-x1-2x2-x3 <=-10
+2x2+x3 <=20
+-x1 <=0
+funkcja celu: 2x1+x2+3x3 -> MAX
+
+
+Wynik funkcji: 
+     fun: -80.0
+ message: 'Optimization terminated successfully.'
+     nit: 6
+   slack: array([ 0.,  0., 10.,  0.,  0.])
+  status: 0
+ success: True
+       x: array([10.,  0., 20.])
+
+
+Zatem: 
+x1=10.0
+x2=0.0
+x3=20.0
+Wartość funkcji: 80.0
+
+
+
+
+
+
+
+
+
+
+
+
+

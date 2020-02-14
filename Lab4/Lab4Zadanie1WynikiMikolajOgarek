@@ -1,0 +1,28 @@
+Mikołaj Ogarek - wyniki Zadanie Liczenie rankingu metodą arytmetyczną
+
+
+Macierz A:
+Koczkodaj: 0.21875
+Value to compare: 0.26754446796632414
+Can 100% trust HRE
+Rozwiązanie: 
+[5.3832862  8.41331945 2.7447984  2.32718182 3.         1.        ]
+
+
+Macierz B:
+Koczkodaj: 0.9464285714285714
+Value to compare: 0.45278640450004204
+Cannot 100% trust HRE
+Rozwiązanie: 
+[2.19106271 2.13823058 1.39445155 2.         0.5        1.        ]
+
+
+Macierz C: 
+Koczkodaj: 0.14500000000000013
+Value to compare: 0.26754446796632414
+Can 100% trust HRE
+Rozwiązanie: 
+[ 8.20540492  2.         10.13524961  5.          2.05217026  3.01702866]
+
+
+

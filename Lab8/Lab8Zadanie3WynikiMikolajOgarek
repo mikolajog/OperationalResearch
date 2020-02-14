@@ -1,0 +1,46 @@
+Mikołaj Ogarek - wyniki 08 Programowanie liniowe - problemy dualne
+
+Zadanie 3
+
+-4x1-x2-8x3-5x4-2x5 <= -12000
+-x2-x4-2x5-3x6 <=-18000
+f(x) = 0.1x1+0.2x2+0.2x3+0.3x4+0.4x5 -> MIN
+-f(x) = -0.1x1-0.2x2-0.2x3-0.3x4-0.4x5 -> MAX
+
+
+Postać dualna: 
+-4y1 >= -0.1
+-y1-y2 >= -0.2
+-8y1 >= -0.2
+-5y1-y2 >= -0.3
+-2y1-2y2 >= -0.4
+-3y2 >= 0
+
+g(y) =-12000y1-18000y2 -> MIN
+
+
+Rozwiązanie: 
+     fun: -300.0
+ message: 'Optimization terminated successfully.'
+     nit: 2
+   slack: array([0.   , 0.175, 0.   , 0.175, 0.35 , 0.   ])
+  status: 0
+ success: True
+       x: array([0.025, 0.   ])
+
+y1 = 1/40
+y2 = 0
+
+x2=0
+x4=0 
+x5=0 
+
+4x1 + 8x3 = 12000
+3x6 = 18000
+=> 
+0.1x1 + 0.2x3 = 300
+x3 = 6000
+
+f(x) = 300
+
+

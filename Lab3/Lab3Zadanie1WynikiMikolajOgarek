@@ -1,0 +1,29 @@
+Mikołaj Ogarek - wyniki Zadanie 1
+
+
+Ostateczny ranking: 
+1. Dom2
+2. Dom1
+3. Dom3
+
+
+Macierz wektorów własnych kategorii:
+[[0.07192743 0.649118   0.27895457]
+ [0.74286662 0.19388163 0.06325174]
+ [0.19388163 0.06325174 0.74286662]
+ [0.71706504 0.06576935 0.21716561]
+ [0.33333333 0.33333333 0.33333333]
+ [0.69095909 0.09140243 0.21763848]
+ [0.7703117  0.06793298 0.16175532]
+ [0.2        0.4        0.4       ]]
+
+Wektor własny macierzy parametrów: 
+[[0.3423749  0.17118745 0.06135003 0.10674552 0.01894456 0.03483414
+  0.04142501 0.22313838]]
+
+Wektor ostateczny - ranking: 
+[[0.34715539 0.36790115 0.28494346]]
+
+Bardzo zbliżony wynik wektora ostatecznego do tego co w poprzednich laboratoriach. 
+
+
